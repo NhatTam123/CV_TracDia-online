@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nguyễn Thế Hải – Playable Ads Developer (Luna)</title>
+  <meta name="description" content="CV trực tuyến cho vị trí Playable Ads (Luna). Nhấn mạnh Unity/HTML5, lập trình game, tối ưu hiệu năng, xử lý sự cố." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--card:#0b1220;--ink:#e6edf6;--muted:#b8c6e3;--brand:#4f46e5;}
+    html{scroll-behavior:smooth}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    .glass{background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.02));backdrop-filter:saturate(140%) blur(8px);border:1px solid rgba(255,255,255,.12)}
+    .chip{border:1px solid rgba(255,255,255,.18)}
+    .thumb{border-radius:0.75rem; overflow:hidden;}
+    .thumb img{width:100%; height:auto; display:block;}
+    .avatar{width:393px; height:590px;}
+    .avatar img{width:100%; height:100%; object-fit:cover; object-position:top center;}
+    @media print{.no-print{display:none} body{background:#fff} .glass{background:transparent;border:none} .print-white{color:#000}}
+  </style>
+</head>
+<body class="bg-[#0a0f1a] text-[var(--ink)]">
+  <!-- Header -->
+  <header class="max-w-4xl mx-auto px-6 pt-10 pb-6">
+    <div class="glass rounded-2xl p-6 md:p-8 grid grid-cols-1 md:grid-cols-[auto,1fr] items-start gap-6">
+      <div class="avatar rounded-full overflow-hidden ring-2 ring-indigo-400/30 shadow-lg">
+        <img src="avatar.jpg" alt="Ảnh đại diện Nguyễn Thế Hải" loading="lazy" decoding="async">
+      </div>
+      <div class="flex-1 max-w-prose">
+        <h1 class="text-2xl md:text-3xl font-extrabold leading-tight">Nguyễn Thế Hải<span class="block text-xl md:text-2xl font-semibold text-indigo-400">Playable Ads Developer (Luna)</span></h1>
+        <p class="mt-2 text-sm md:text-base text-[var(--muted)]">Chuyên phát triển playable ads bằng <strong>Unity / HTML5</strong>, nền tảng lập trình game di động với kinh nghiệm nhiều năm phát triển và tối ưu game Unity 3D. Thành thạo xử lý các dự án phức tạp khi chuyển Unity sang Luna, tối ưu particle, model 3D, texture và sửa lỗi shader. Có kinh nghiệm kiến trúc code dễ đọc, tối ưu hiệu năng, xây dựng script tự động hóa cho pipeline build. Công khai các sản phẩm game đã phát triển trên Google Play.</p>
+      </div>
+      <nav class="no-print flex flex-wrap gap-3">
+        <a href="#skills" class="chip px-4 py-2 rounded-xl hover:bg-white/5">Kỹ năng</a>
+        <a href="#experience" class="chip px-4 py-2 rounded-xl hover:bg-white/5">Kinh nghiệm</a>
+        <a href="#projects" class="chip px-4 py-2 rounded-xl hover:bg-white/5">Dự án</a>
+        <a href="#contact" class="chip px-4 py-2 rounded-xl hover:bg-white/5">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Meta -->
+  <section class="max-w-4xl mx-auto px-6 mt-6">
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="glass rounded-2xl p-5">
+        <h3 class="text-sm uppercase tracking-wider text-indigo-300/90">Thông tin</h3>
+        <ul class="mt-3 space-y-2 text-[var(--muted)]">
+          <li><strong class="text-[var(--ink)]">Địa điểm:</strong> Hà Nội (sẵn sàng làm remote)</li>
+          <li><strong class="text-[var(--ink)]">Thâm niên:</strong> 3–5 năm làm playable/interactive ads & mobile game</li>
+          <li><strong class="text-[var(--ink)]">Mong muốn:</strong> Playable Ads Luna / Game Developer</li>
+        </ul>
+      </div>
+      <div class="glass rounded-2xl p-5">
+        <h3 class="text-sm uppercase tracking-wider text-indigo-300/90">Tóm tắt</h3>
+        <p class="mt-3 text-[var(--muted)]">Xuất phát từ nền tảng lập trình game Unity 3D, từng tham gia phát triển và tối ưu game mobile (Strike Galaxy Attack, Stickz Shooter). Kinh nghiệm thực tiễn giúp tôi xử lý hiệu quả các bài toán: dung lượng, hiệu năng, kiến trúc code, dọn rác, chuyển giao code. Khi sang mảng playable ads, tôi áp dụng được khả năng phân tích, sửa lỗi shader, tinh chỉnh asset 3D/particle, kết hợp viết script build tự động để playable chạy mượt trên nhiều network.</p>
+      </div>
+      <div class="glass rounded-2xl p-5">
+        <h3 class="text-sm uppercase tracking-wider text-indigo-300/90">Liên hệ</h3>
+        <ul class="mt-3 space-y-2">
+          <li>Email: <a class="underline" href="mailto:youremail@example.com">camthiennam5@gmail.com</a></li>
+          <li>Điện thoại: 0384 828 164</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-4xl mx-auto px-6 mt-10">
+    <h2 class="text-xl font-bold">Kỹ năng cốt lõi</h2>
+    <div class="mt-4 grid md:grid-cols-2 gap-4">
+      <div class="glass rounded-2xl p-5">
+        <h3 class="font-semibold">Kỹ thuật</h3>
+        <ul class="mt-3 grid grid-cols-2 gap-2 text-[var(--muted)]">
+          <li>Unity (C#), WebGL tối ưu</li>
+          <li>HTML5, Canvas, Vanilla JS</li>
+          <li>Lập trình game mobile Unity 3D</li>
+          <li>Tối ưu particle, model 3D, texture</li>
+          <li>Sửa lỗi shader & vật liệu phức tạp</li>
+          <li>Custom script build/export</li>
+          <li>Event & tracking hooks đa network</li>
+          <li>QA & automated checks</li>
+        </ul>
+      </div>
+      <div class="glass rounded-2xl p-5">
+        <h3 class="font-semibold">Quy trình & tiêu chuẩn</h3>
+        <ul class="mt-3 list-disc list-inside text-[var(--muted)] space-y-1">
+          <li>Triển khai playable trên Luna, Google, Applovin, Mintegral</li>
+          <li>Kinh nghiệm xử lý bug khi chuyển Unity → Luna</li>
+          <li>Quản lý version Git, review PR, hỗ trợ đồng đội</li>
+          <li>Thiết kế kiến trúc code dễ đọc, dễ bảo trì</li>
+          <li>Tư duy tối ưu hiệu năng, dự phòng rủi ro kỹ thuật</li>
+          <li>Tuân thủ NDA/Bảo mật; chỉ dùng tài sản hợp lệ</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-4xl mx-auto px-6 mt-10">
+    <h2 class="text-xl font-bold">Kinh nghiệm nổi bật</h2>
+    <div class="mt-4 space-y-4">
+      <article class="glass rounded-2xl p-5">
+        <header class="flex flex-wrap items-baseline gap-2">
+          <h3 class="font-semibold">Playable Ads Engineer</h3>
+          <span class="text-xs text-[var(--muted)]">2022 – 2025</span>
+        </header>
+        <ul class="mt-2 list-disc list-inside text-[var(--muted)] space-y-1">
+          <li>Thực hiện hàng trăm playable ads trong mảng game casual & utility, với nhiều dự án yêu cầu khắt khe về hiệu năng và dung lượng và chất lượng hình ảnh.</li>
+          <li>Giải quyết sự cố khi chuyển project từ Unity sang Luna: sửa shader, tối ưu particle và model 3D.</li>
+          <li>Viết script tự động hoá: thay thế MRAID, xoá token debug, build HTML/ZIP theo chuẩn network.</li>
+          <li>Xử lý lỗi phát sinh đa nền tảng, đa màn hình crash khi rotate, asset xung đột.</li>
+          <li>Kinh nghiệm tối ưu pipeline để playable hoạt động mượt và tương thích đa thiết bị.</li>
+        </ul>
+      </article>
+      <article class="glass rounded-2xl p-5">
+        <header class="flex flex-wrap items-baseline gap-2">
+          <h3 class="font-semibold">Game Developer (Unity 3D)</h3>
+          <span class="text-xs text-[var(--muted)]">2017 – 2020</span>
+        </header>
+        <ul class="mt-2 list-disc list-inside text-[var(--muted)] space-y-1">
+          <li>Phát triển game mobile độc lập: Strike Galaxy Attack, Stickz Shooter, SuperStickFight (công khai trên Google Play).</li>
+          <li>Tham gia vào lập trình gameplay, tối ưu hiệu năng, phối hợp với art và QA.</li>
+          <li>Thiết kế kiến trúc code gọn gàng, dễ hiểu, hỗ trợ chuyển giao.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-4xl mx-auto px-6 mt-10">
+    <h2 class="text-xl font-bold">Dự án công khai</h2>
+    <p class="mt-2 text-[var(--muted)]">Các sản phẩm game và playable ads đã công khai, minh chứng rõ ràng cho năng lực phát triển.</p>
+    <div class="mt-4 grid md:grid-cols-2 gap-4">
+      <a class="glass rounded-2xl p-5 block hover:bg-white/5" href="https://play.google.com/store/apps/details?id=com.onegame.chickenshooter" target="_blank" rel="noopener">
+        <div class="thumb mb-3">
+          <img src="galaxy.png" alt="Strike Galaxy Attack thumbnail">
+        </div>
+        <h3 class="font-semibold">Strike Galaxy Attack</h3>
+        <p class="text-[var(--muted)] mt-1">Game bắn gà không gian – hơn 5 triệu lượt tải trên Google Play.</p>
+      </a>
+      <a class="glass rounded-2xl p-5 block hover:bg-white/5" href="https://play.google.com/store/apps/details?id=com.onegame.stickzshooter" target="_blank" rel="noopener">
+        <div class="thumb mb-3">
+          <img src="StickManHero.png" alt="Stickz Shooter thumbnail">
+        </div>
+        <h3 class="font-semibold">Stickz Shooter</h3>
+        <p class="text-[var(--muted)] mt-1">Game bắn stickman – hơn 1 triệu lượt tải trên Google Play.</p>
+      </a>
+      <a class="glass rounded-2xl p-5 block hover:bg-white/5" href="https://play.google.com/store/apps/details?id=com.onegameglobal.superstickfight" target="_blank" rel="noopener">
+        <div class="thumb mb-3">
+          <img src="PVP.png" alt="Stickz Shooter thumbnail">
+        </div>
+        <h3 class="font-semibold">Hỗn Chiến Siêu Anh Hùng Vũ Trụ</h3>
+        <p class="text-[var(--muted)] mt-1">Game đối kháng PVP,PVE – hơn 5 triệu lượt tải trên Google Play.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="max-w-4xl mx-auto px-6 mt-10">
+    <h2 class="text-xl font-bold">Học vấn & Chứng chỉ</h2>
+    <ul class="mt-3 list-disc list-inside text-[var(--muted)] space-y-1">
+      <li>Kỹ sư Trắc địa – (tốt nghiệp 2017)</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="max-w-4xl mx-auto px-6 mt-12 mb-16">
+    <div class="glass rounded-2xl p-6 text-center">
+      <h2 class="text-lg font-bold">Liên hệ</h2>
+      <p class="mt-2 text-[var(--muted)]">CV công khai, minh bạch, có dẫn chứng dự án thực tế. Cam kết mang lại playable ads và game chất lượng, tối ưu, an toàn cho nhà tuyển dụng.</p>
+      <div class="mt-4 flex justify-center gap-4">
+      </div>
+    </div>
+    <p class="mt-6 text-center text-xs text-[var(--muted)]">© 2025 Nguyễn Thế Hải • CV trực tuyến – công khai dự án & sản phẩm thật.</p>
+  </footer>
+</body>
+</html>
